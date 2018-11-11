@@ -3,5 +3,5 @@
 
 void show_wiki_page(const std::string &markup)
 {
-    fmt::print(markup);
+    fmt::print("{}\n", markup);
 }
